@@ -1,0 +1,81 @@
+.contenedor{
+    border: 3px solid #000;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.cajam1{
+    border: 3px solid #ff6060;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cajam2{
+    border: 3px solid #1400ff;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.caja1{
+    border: 3px solid black;
+    background-color: #ff6060;
+    width: 40px;
+    height: 40px;
+
+}
+
+.caja2{
+    border: 3px solid black;
+    background-color: #1400ff;
+    width: 40px;
+    height: 40px;
+
+}
+/* Para un rango / Filtro banda angosta*/
+@media screen and (min-width: 400px)  and (max-width: 600px) {
+    .cajam1{
+        display: flex;
+        flex-direction: column;
+    }
+    .cajam2{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/* Min-width implica que desde 600px al imfinito tendrá ese comportamiento */
+@media screen and (min-width: 600px) {
+    .contenedor{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .caja1{
+        border: 3px solid black;
+        background-color: #60ff66;
+       
+    }
+    .caja2{
+        border: 3px solid black;
+        background-color: #000;
+       
+    }
+    .cajam1{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+.container
+{
+    border: 2px solid black;
+    height:100vh ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hijo1 hijo2"
+    "hijo1 hijo2"
+    "hijo1 hijo3";
+    grid-gap: 20px;
+}
+.hijo
+{
+    border: 2px solid black;
+    background-color: rgb(101, 133, 222);
+    border-radius: 20px;
+}
+.hijo-1
+{
+    grid-area: hijo1;
+}
+.hijo-2
+{
+    grid-area: hijo2;
+}
+.hijo-3
+{
+    grid-area: hijo3;
+}

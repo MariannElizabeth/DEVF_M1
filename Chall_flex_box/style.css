@@ -1,0 +1,58 @@
+
+body{
+    height:100vh;
+    width: 100wh;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+
+.padre {
+    height: 500px;
+    width: 500px;
+    border: 8px solid #800080;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hijo{
+    height: 140px;
+    width: 140px;
+    border: 5px solid #e234bd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nieto{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #3471e2;}
+
+    .madre {
+        height: 500px;
+        width: 500px;
+        border: 8px solid #800080;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .hija{
+        height: 140px;
+        width: 140px;
+        border: 5px solid #e234bd;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nieta{
+        height: 30px;
+        width: 30px;
+        border: 3px solid #3471e2;}
+

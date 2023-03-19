@@ -1,0 +1,87 @@
+body{
+    /* Se pone un margen 0 y un padding 0 por que por dafualt las páginas tienen un borde y margen */
+    margin: 0px;
+    padding: 0px;
+    /* Con esto aseguramos que toma todo le tamaño de la pantalla 100vh, 100vw */
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+
+}
+.ai
+{
+ border:2px solid #00205B;
+ width: 35%;
+ height: 100%;
+ display: flex;
+ background-color: #00205B;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.bii
+{
+    border:2px solid #ffffff;
+    width:92%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bis
+{
+    border:2px solid #ffffff;
+    width:92%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ri
+{
+    border:2px solid #BA0C2F;
+    width:90%;
+    height: 90%;
+    background-color: #BA0C2F;
+}
+
+.ad
+{
+ border:2px solid #00205B;
+ width: 75%;
+ display: flex;
+ background-color: #00205B;
+ flex-direction: column;
+ align-items: flex-end;
+ justify-content: space-between;
+}
+.bdi
+{
+    width:92%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content:end;
+}
+
+.bds
+{
+    width:92%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content:end;
+}
+
+.rd
+{
+    border:2px solid #BA0C2F;
+    width:90%;
+    height: 90%;
+    background-color: #BA0C2F;
+}

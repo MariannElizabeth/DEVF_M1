@@ -1,0 +1,24 @@
+
+body {
+    background-color: #f9d2f5;
+}
+
+h1 {
+    color: #04043e;
+}
+
+.purple{
+    color:#620462;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#amigos {
+    width: 400px;
+}
+
+.blue{
+    color: #0a0a80;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+}

@@ -1,0 +1,28 @@
+.contenedor{
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: row;
+}
+.caja{
+    border: 3px solid #7835d0;
+    width: 200px;
+    height: 200px;
+    background-color: #b99ae1;
+}
+/* Max width implica que de 0 hasta 300px va a tener ese comportamiento */
+@media screen and (max-width: 300px) {
+    .contenedor{
+        flex-direction: column;
+    }
+    .caja{
+        background-color: #78b2e2;
+}}
+/* Min-width implica que desde 600px al imfinito tendrá ese comportamiento */
+@media screen and (min-width: 600px) {
+    .contenedor{
+        flex-direction: column;
+    }
+    .caja{
+        background-color: #e583bf;
+    }
+}

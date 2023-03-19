@@ -1,0 +1,28 @@
+.nav{
+    border: 3px solid #29cdcd;
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.p{
+    margin-top: 50px;
+}
+.parent{
+    border:2px solid black;
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    background-color: black;
+}
+
+.children {
+    width: 60%;
+    height: 60%;
+    border: solid red 2px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    background-color: red;
+}

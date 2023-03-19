@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+    <!-- En este código vamos a conocer las etiquetas inputs -->
+<body>
+    <h1>Formularios HTML</h1>
+    <!-- El input más sencillo es el de tipo texto -->
+    <input type="text">
+    <!-- Una etiqueta br te sirve p0ara un salto de línea -->
+    <br>
+    <br>
+    <!-- Otro input es el tipo checkbox, es un recuadro para poner una palomita-->
+    <input type="checkbox" name="" id="">
+    <br>
+    <br>
+    <!-- Si quieres poner un texto para saber a que le estas dando clic se utiliza label -->
+    <label for="">
+        Aceptas los terminos y condiciones
+        <input type="checkbox" name="" id="">
+    </label>
+    <br>
+    <br>
+    <!-- Otro input es el de tipo color, que te permite seleccionar un color -->
+    <label for="">
+        Selecciona el color de tu prenda
+        <input type="color" name="" id="">
+    </label>
+    <br>
+    <br>
+    <!-- Esta entrada es para ingresar una fecha -->
+    <label for="">
+        Selecciona tu fecha de nacimiento
+        <!-- Aqui ya empieza con una fecha la entrada -->
+        <input type="date" value="2022-02-13" name="" id=""
+            min="2013-03-01"
+            max="2022-02-13">
+    </label>
+    <br><br>
+    <label for="">
+        ¿Cuántos autos tienes?
+        <!-- Esta etiqueta es para ingresar un número, que también puede estar limitado solo con las flechitas-->
+        <input type="number" name="" id=""
+        min="0"
+        max="7">
+    </label>
+    <br><br>
+    <label for="">
+        <!-- La entrada password te permite ingresar datos protegiendo la información ya que solo pone bolitas -->
+        Ingresa la contraseña
+        <input type="password" name="" id="">
+    </label>
+    <br><br>
+    <label for="">
+        <!-- La entrada radio es un check pero en forma de bolita-->
+        Marca si eres casada
+        <input type="radio" name="" id="">
+    </label>
+    <br><br>
+    <h4>Selecciona tu rango de edad</h4>
+    <label for="">
+        <!-- dejando uun parametro name solo me permite seleccionar una de todas las opciones-->
+        18 a 25
+        <input type="radio" name="age" id="">
+        <br>
+    </label>
+    <label for="">
+        26 a 35
+        <input type="radio" name="age" id="">
+    </label>
+    <br>
+    <label for="">
+        36 a 45
+        <input type="radio" name="age" id="">
+    </label>
+    <!-- hr marca una linea divisoria -->
+    <hr>
+    <br><br>
+    <label for="">
+        Que tanto amas a tu mascota
+        <!-- Este input despliega una barra que permite poner un rango -->
+        <input type="range" name="" id="">
+    </label>
+    <hr>
+    <br><br>
+    <label for="">
+        Adjunta tu archivo
+        <!-- Este input te permite cargar un archivo desde tu computadora -->
+        <input type="file" name="" id="">
+    </label>
+    <hr>
+    <br><br>
+    <label>
+        Buscador perruno, escribe la raza
+        <br>
+        <input type="search" name="" id="">
+    </label>
+</body>
+</html>

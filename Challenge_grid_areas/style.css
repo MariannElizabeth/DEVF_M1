@@ -1,0 +1,51 @@
+.container
+{
+    border: px solid black;
+    height:100vh ;
+    width: 100vw;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a1 a1 a2 a2 a2"
+    "a1 a1 ab a3 a3"
+    "a4 ab2 a5 a5 a5"
+    "a4 ab2 a5 a5 a5";
+    grid-gap:20px;
+}
+.area
+{
+    border: 2px solid black;
+    background-color: palevioletred;
+    border-radius: 10px;
+    font-size: 50px;
+    color: white;
+}
+.area1
+{
+    grid-area: a1;
+}
+.area2
+{
+    grid-area: a2;
+}
+.area3
+{
+    grid-area: a3;
+}
+.area4
+{
+    grid-area: a4;
+}
+.area5
+{
+    grid-area: a5;
+}
+.areab
+{
+    grid-area: ab;
+}
+.areab2
+{
+    grid-area: ab2;
+}

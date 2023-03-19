@@ -1,0 +1,47 @@
+.b {
+    color: #4285f4;
+}
+
+.g {
+    color: #34a853;
+}
+
+.y{
+    color: #fbbc05;
+}
+
+.r {
+    color: #ea4335;
+}
+.i
+{
+    margin-left: 200px;
+}
+h1{
+    display:inline-block;
+    font-size: 100px;  
+}
+
+div {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    
+}
+
+p{
+    margin-top:-50px;
+   
+
+}
+
+a{
+    margin: 10px; 
+    text-decoration: none;
+}
+
+.links{
+    text-align: end;
+    display: block;
+   
+}

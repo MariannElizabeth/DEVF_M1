@@ -1,0 +1,23 @@
+.contenedor1{
+    margin: 20px;
+    font-size: 16px;
+    border: 3px solid #000;
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+}
+/* Aqui la clase titulo esta tomando el tamaño de 16 px del contenedor1, que es su valor más cercano (1em)*/
+.titulo{
+    font-size: 3em;
+}
+/* Toma el valor más cercano del contenedor que contiene a esta clase, NO DEL TÍTULO QUE ES LA LÍNEA MÁS CERCANA DE CÓDIGO.  */
+.subtitulo{
+    font-size: 2em;
+}
+.contenedor{
+    font-size: 60px;
+}
+/* En este caso el contenedor más cercano (em) de parrafo es el llamado contenedor que mide 60 px, pero si usara la opción (rem) va a buscar al contenedor que contiene todo entonces su valor será 16px */
+.parrafo{
+    font-size: 1rem;
+}

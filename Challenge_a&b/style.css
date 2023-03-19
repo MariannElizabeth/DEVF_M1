@@ -1,0 +1,18 @@
+
+.contenedor{
+
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    "lugar1 lugar2 lugar3 lugar4"
+    "lugar5 lugar6 lugar7 lugar8";
+    grid-gap:20px
+}
+
+.caja {
+    border: 3px solid blue;
+    height: 800px;
+    width: 800px;
+    grid-area: auto;
+}

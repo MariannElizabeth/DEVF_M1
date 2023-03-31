@@ -1,0 +1,36 @@
+/* Ejercicio de prueba con flexbox pinterest
+ */
+body{
+    background-color: #fffdfd;
+    margin:1em;
+}
+img{
+
+    /* Esto hace que la imagen abarque el espacio de su contenedor */
+    max-width:100%;
+    /* Esta propiedad ayuda a que la imagen se ajuste a su contenedor */
+    /* object-fit: cover; */
+    
+    /* Esto ayuda a que se mantenga el espacio de separación entres filas */
+    margin-bottom: 1em;
+    border-radius: 1em;
+} 
+
+img:hover{
+    filter:invert(0.18)
+    
+}
+
+.gallery{
+    columns:5 250px;
+    column-gap: 1em;
+
+    /* Con estas instrucciones hacemos que las imagenes cambien de fila cuando ya no caben. */
+    /* display: grid; */
+    /* Con grid le pedimos que se autollene cada 320 px  */
+    /* grid-template-columns: repeat (auto-fill, minmax (320px, 3fr)); */
+    /* align-items: start; */
+}
+p{
+    margin-bottom: 1em;
+}
